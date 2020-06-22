@@ -17,16 +17,16 @@ Pod::Spec.new do |spec|
 
   spec.name         = "kaixuePaper"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of kaixuePaper."
+  spec.summary      = "zhouluyao demo,测试 cocoapod 的安装."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
- spec.description  = "zhouluyao demo,测试 cocoapod 的安装."
+ spec.description  = "zhouluyao demo,测试 cocoapod 的安装.zhouluyao demo,测试 cocoapod 的安装."
 
-  spec.homepage     = "http://EXAMPLE/kaixuePaper"
+ spec.homepage     = "https://github.com/LYChow"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:LYChow/kaixuePaper.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/LYChow/kaixuePaper.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
